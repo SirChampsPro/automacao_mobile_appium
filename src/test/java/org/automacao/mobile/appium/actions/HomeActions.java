@@ -12,4 +12,22 @@ public class HomeActions {
     public static void validatePage(){
         homePage().validatePage();
     }
+
+    public static void clickMenuMain(){
+        homePage().getBtnMenuMain().click();
+    }
+
+    public static void clickMenuUsers(){
+        homePage().validateMenuMain();
+        homePage().getBtnMenuUsers().click();
+    }
+
+    public static void clickMenuUsers(boolean clickMenuMain){
+
+        if(clickMenuMain)
+            clickMenuMain();
+
+        clickMenuUsers();
+    }
+
 }
