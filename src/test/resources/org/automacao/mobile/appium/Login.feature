@@ -5,6 +5,7 @@
     Desejo ser capaz de acessar a aplicacao
     Para realizar transacoes
 
+  @login
   Esquema do Cenario: Login com usuario valido
     Dado que estou na tela de login
     E Inserir os dados de login usuario "<usuario>" e senha "<senha>"
